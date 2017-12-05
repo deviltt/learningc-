@@ -1,15 +1,16 @@
 #include <iostream>
 #include <string>
-
+#include "Sales_data.h"
+/*
 struct Sales_data{
 	std::string bookNo;
 	unsigned 	units_sold;
 	double		revenue;
 };
-
+*/
 int main()
 {
-	Sales_data data1, data2;
+	sales_data data1, data2;
 
 
 	double price;
